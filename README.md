@@ -38,7 +38,7 @@ The task is episodic, and in order to solve the environment, an agent must get a
 
 ### Instructions
 
-The solution includes 3 notebooks:
+
 
 - Navigation_DQN.ipynb implements deep Q-network (DQN) with experience replay and fixed Q-targets
 - Navigation_Priority_DQN implements DQN with prioritize experience replay and fixed Q-targets
@@ -50,20 +50,3 @@ In addition, code shared by the notebooks is located in python files:
 - utils.py implements utility functions used by the notebooks
 
 To train agents, run all the cells in one of the notebooks. Description of the implementation, results and analysis can be found in report.pdf.
-
-
-### (Optional) Challenge: Learning from Pixels
-
-In the project, the agent learns from information such as its velocity, along with ray-based perception of objects around its forward direction. A more challenging task is to learn directly from pixels!
-
-To solve this harder task, you'll need to download a new Unity environment.  This environment is almost identical to the project environment, where the only difference is that the state is an 84 x 84 RGB image, corresponding to the agent's first-person view.
-
-You need only select the environment that matches your operating system:
-- Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana_Linux.zip)
-- Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana.app.zip)
-- Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana_Windows_x86.zip)
-- Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/VisualBanana_Windows_x86_64.zip)
-
-Then, place the file in the `p1_navigation/` folder in the DRLND GitHub repository, and unzip the file.
-
-(_For AWS_) If you'd like to train the agent on AWS, you must follow the instructions to [set up X Server](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md), and then download the environment for the **Linux** operating system above.
