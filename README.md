@@ -1,15 +1,10 @@
-[//]: # (Image References)
-
-[image1]: https://user-images.githubusercontent.com/10624937/42135619-d90f2f28-7d12-11e8-8823-82b970a54d7e.gif "Trained Agent"
-
 # Udacity Deep Reinforcement Learning Nanodegree Project 1: Navigation
 
 ### Project details
 
 In this project, an agent navigates in a large, square world and collects bananas.
 
-![Trained Agent][image1]
-
+[![Solution demo](http://img.youtube.com/vi/fIKCVV26-f4/0.jpg)](http://www.youtube.com/watch?v=fIKCVV26-f4)
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.  
 
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction. Given this information, the agent has to learn how to best select actions. Four discrete actions are available, corresponding to:
@@ -34,19 +29,10 @@ The task is episodic, and in order to solve the environment, an agent must get a
 
 2. Place the file in root of the folder and unzip the file.
 
-3. Run Navigation.ipynb to test the environment.
+3. Run all the cells in Navigation.ipynb to test the environment.
 
 ### Instructions
 
-
-
-- Navigation_DQN.ipynb implements deep Q-network (DQN) with experience replay and fixed Q-targets
-- Navigation_Priority_DQN implements DQN with prioritize experience replay and fixed Q-targets
-- Navigation_Pixel_DQN.ipynb implements DQN for the project (see next section), where state is an 84 x 84 RGB image
-
-In addition, code shared by the notebooks is located in python files:
-
-- qnet.py implements a dense neural network used as q-network by the agents in the notebooks
-- utils.py implements utility functions used by the notebooks
-
-To train agents, run all the cells in one of the notebooks. Description of the implementation, results and analysis can be found in report.pdf.
+Run all the cells in Navigation_DQN.ipynb notebook to train the agent.
+Description of the implementation is provided in report.md.
+For technical details see the code in the notebook
