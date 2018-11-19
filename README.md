@@ -4,7 +4,9 @@
 
 In this project, an agent navigates in a large, square world and collects bananas.
 
+Click on the image below to see the solution demo:
 [![Solution demo](http://img.youtube.com/vi/fIKCVV26-f4/0.jpg)](http://www.youtube.com/watch?v=fIKCVV26-f4)
+
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.  
 
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction. Given this information, the agent has to learn how to best select actions. Four discrete actions are available, corresponding to:
@@ -33,8 +35,9 @@ The task is episodic, and in order to solve the environment, an agent must get a
 
 ### Instructions
 
-Run all the cells in [Navigation_DQN.ipynb](Navigation_DQN.ipynb) notebook to train the agent.
-Description of the implementation is provided in [report.md](report.md).
+To train the agent run all the cells in [Navigation_DQN.ipynb](Navigation_DQN.ipynb) notebook.
+
+Description of the implementation is provided in [report.md](report.md). 
 For technical details see the code in the notebook.
 
 Model weights are stored in [dqn.pth](dqn.pth)
