@@ -5,6 +5,7 @@
 In this project, an agent navigates in a large, square world and collects bananas.
 
 Click on the image below to see the solution demo:
+
 [![Solution demo](http://img.youtube.com/vi/fIKCVV26-f4/0.jpg)](http://www.youtube.com/watch?v=fIKCVV26-f4)
 
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.  
