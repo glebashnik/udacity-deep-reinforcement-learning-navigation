@@ -29,10 +29,12 @@ The task is episodic, and in order to solve the environment, an agent must get a
 
 2. Place the file in root of the folder and unzip the file.
 
-3. Run all the cells in Navigation.ipynb to test the environment.
+3. Run all the cells in [Navigation.ipynb](Navigation.ipynb) to test the environment.
 
 ### Instructions
 
-Run all the cells in Navigation_DQN.ipynb notebook to train the agent.
-Description of the implementation is provided in report.md.
-For technical details see the code in the notebook
+Run all the cells in [Navigation_DQN.ipynb](Navigation_DQN.ipynb) notebook to train the agent.
+Description of the implementation is provided in [report.md](report.md).
+For technical details see the code in the notebook.
+
+Model weights are stored in [dqn.pth](dqn.pth)

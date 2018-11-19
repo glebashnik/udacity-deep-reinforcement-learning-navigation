@@ -1,4 +1,4 @@
-# Navigation Project Report: Solving Banana Collector Environment with Deep Q-Network
+# Solving Banana Collectors Environment with Deep Q-Network
 
 ## Overview
 
